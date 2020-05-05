@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)https://www.raspberrypi.com.tw/1362/dht22-device-driver-starter-kit/ -->
+<html lang="en-US"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width">
+<title>[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="stylesheet" type="text/css" media="all" href="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/style.css">
+<link href="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/css" rel="stylesheet" type="text/css">
+<link rel="pingback" href="https://www.raspberrypi.com.tw/xmlrpc.php">
+<!--[if lt IE 9]>
+<script src="https://www.raspberrypi.com.tw/wp-content/themes/twentyeleven/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+<!-- This site is optimized with the Yoast SEO Premium plugin v12.9.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<link rel="canonical" href="https://www.raspberrypi.com.tw/1362/dht22-device-driver-starter-kit/">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派">
+<meta property="og:description" content="《特色》 – 搭配 Raspberry Pi 實際學習如何撰寫 Linux 驅動程式 《規格》 – DHT22溫濕度感測器(0~100%RH -4~125℃量測, ± 2%RH ± 0.2℃誤差) x1 – 170孔迷你麵包板 x1 – 10K電阻(1/4W) x1 – 20cm公對母排線(顏色隨機) x4 * 注意：本學習套件不包含 Raspberry Pi 用Raspberry Pi學Linux驅動程式 from raspberrypi-tw 《下載》 * 中文規格書(DHT11)，英文規格書(DHT22) * DHT11 範例程式 … Continue reading →">
+<meta property="og:url" content="https://www.raspberrypi.com.tw/1362/dht22-device-driver-starter-kit/">
+<meta property="og:site_name" content="Raspberry Pi台灣樹莓派">
+<meta property="article:tag" content="Device">
+<meta property="article:tag" content="device driver">
+<meta property="article:tag" content="DHT">
+<meta property="article:tag" content="DHT11">
+<meta property="article:tag" content="DHT22">
+<meta property="article:tag" content="DHTxx">
+<meta property="article:tag" content="Driver">
+<meta property="article:tag" content="kernel">
+<meta property="article:tag" content="Learning Kit">
+<meta property="article:tag" content="linux">
+<meta property="article:tag" content="raspberry pi">
+<meta property="article:tag" content="sensor">
+<meta property="article:tag" content="傳感器">
+<meta property="article:tag" content="套件">
+<meta property="article:tag" content="學習套件">
+<meta property="article:tag" content="感測器">
+<meta property="article:tag" content="教學套件">
+<meta property="article:tag" content="樹莓派">
+<meta property="article:tag" content="溫度">
+<meta property="article:tag" content="溫濕度">
+<meta property="article:tag" content="濕度">
+<meta property="article:tag" content="驅動程式">
+<meta property="article:section" content="學習套件">
+<meta property="article:published_time" content="2014-07-15T08:06:23+00:00">
+<meta property="article:modified_time" content="2020-03-06T03:24:00+00:00">
+<meta property="og:updated_time" content="2020-03-06T03:24:00+00:00">
+<meta property="og:image" content="https://www.raspberrypi.com.tw/wp-content/uploads/2014/07/DHT22-Learning-Device-Driver-Package.jpg">
+<meta property="og:image:secure_url" content="https://www.raspberrypi.com.tw/wp-content/uploads/2014/07/DHT22-Learning-Device-Driver-Package.jpg">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:description" content="《特色》 – 搭配 Raspberry Pi 實際學習如何撰寫 Linux 驅動程式 《規格》 – DHT22溫濕度感測器(0~100%RH -4~125℃量測, ± 2%RH ± 0.2℃誤差) x1 – 170孔迷你麵包板 x1 – 10K電阻(1/4W) x1 – 20cm公對母排線(顏色隨機) x4 * 注意：本學習套件不包含 Raspberry Pi 用Raspberry Pi學Linux驅動程式 from raspberrypi-tw 《下載》 * 中文規格書(DHT11)，英文規格書(DHT22) * DHT11 範例程式 … Continue reading →">
+<meta name="twitter:title" content="[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派">
+<meta name="twitter:image" content="https://www.raspberrypi.com.tw/wp-content/uploads/2014/07/DHT22-Learning-Device-Driver-Package-ss.jpg">
+<script type="text/javascript" async="" src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/recaptcha__zh_tw.js.下載"></script><script async="" src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/analytics.js.下載"></script><script type="text/javascript" async="" src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/dc.js.下載"></script><script type="application/ld+json" class="yoast-schema-graph yoast-schema-graph--main">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.raspberrypi.com.tw/#website","url":"https://www.raspberrypi.com.tw/","name":"Raspberry Pi\u53f0\u7063\u6a39\u8393\u6d3e","description":"Raspberry Pi\u5b98\u65b9\u4ee3\u7406\u5546","potentialAction":{"@type":"SearchAction","target":"https://www.raspberrypi.com.tw/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://www.raspberrypi.com.tw/1362/dht22-device-driver-starter-kit/#primaryimage","url":"https://www.raspberrypi.com.tw/wp-content/uploads/2014/07/DHT22-Learning-Device-Driver-Package-ss.jpg","width":160,"height":160},{"@type":"WebPage","@id":"https://www.raspberrypi.com.tw/1362/dht22-device-driver-starter-kit/#webpage","url":"https://www.raspberrypi.com.tw/1362/dht22-device-driver-starter-kit/","inLanguage":"en-US","name":"[\u7522\u54c1] DHT22\u9a45\u52d5\u7a0b\u5f0f\u5b78\u7fd2\u5957\u4ef6 - Raspberry Pi\u53f0\u7063\u6a39\u8393\u6d3e","isPartOf":{"@id":"https://www.raspberrypi.com.tw/#website"},"primaryImageOfPage":{"@id":"https://www.raspberrypi.com.tw/1362/dht22-device-driver-starter-kit/#primaryimage"},"datePublished":"2014-07-15T08:06:23+00:00","dateModified":"2020-03-06T03:24:00+00:00","author":{"@id":"https://www.raspberrypi.com.tw/#/schema/person/7febcdc2feac9f437bea7611975a52c0"},"breadcrumb":{"@id":"https://www.raspberrypi.com.tw/1362/dht22-device-driver-starter-kit/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://www.raspberrypi.com.tw/1362/dht22-device-driver-starter-kit/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://www.raspberrypi.com.tw/","url":"https://www.raspberrypi.com.tw/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https://www.raspberrypi.com.tw/1362/dht22-device-driver-starter-kit/","url":"https://www.raspberrypi.com.tw/1362/dht22-device-driver-starter-kit/","name":"[\u7522\u54c1] DHT22\u9a45\u52d5\u7a0b\u5f0f\u5b78\u7fd2\u5957\u4ef6"}}]},{"@type":["Person"],"@id":"https://www.raspberrypi.com.tw/#/schema/person/7febcdc2feac9f437bea7611975a52c0","name":"\u5c0f\u7de8","image":{"@type":"ImageObject","@id":"https://www.raspberrypi.com.tw/#authorlogo","url":"https://secure.gravatar.com/avatar/7b3d288f6c1778392a4b05d42703e5e3?s=96&d=mm&r=g","caption":"\u5c0f\u7de8"},"sameAs":[]}]}</script>
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel="dns-prefetch" href="https://s.w.org/">
+<link rel="alternate" type="application/rss+xml" title="Raspberry Pi台灣樹莓派 » Feed" href="https://www.raspberrypi.com.tw/feed/">
+<link rel="alternate" type="application/rss+xml" title="Raspberry Pi台灣樹莓派 » Comments Feed" href="https://www.raspberrypi.com.tw/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Raspberry Pi台灣樹莓派 » [產品] DHT22驅動程式學習套件 Comments Feed" href="https://www.raspberrypi.com.tw/1362/dht22-device-driver-starter-kit/feed/">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.raspberrypi.com.tw\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.3"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/wp-emoji-release.min.js.下載" type="text/javascript" defer=""></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="wp-block-library-css" href="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wspsc-style-css" href="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/wp_shopping_cart_style.css" type="text/css" media="all">
+<link rel="stylesheet" id="sm-style-css" href="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/wpsm-style.css" type="text/css" media="all">
+<link rel="stylesheet" id="wpdreams-asl-basic-css" href="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/style.basic.css" type="text/css" media="all">
+<link rel="stylesheet" id="wpdreams-ajaxsearchlite-css" href="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/style-simple-red.css" type="text/css" media="all">
+<link rel="stylesheet" id="easy_table_style-css" href="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/style(1).css" type="text/css" media="all">
+<link rel="stylesheet" id="jquery-lazyloadxt-spinner-css-css" href="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/jquery.lazyloadxt.spinner.css" type="text/css" media="all">
+<script type="text/javascript" src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/jquery.js.下載"></script>
+<script type="text/javascript" src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/jquery-migrate.min.js.下載"></script>
+<link rel="https://api.w.org/" href="https://www.raspberrypi.com.tw/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.raspberrypi.com.tw/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.raspberrypi.com.tw/wp-includes/wlwmanifest.xml"> 
+<link rel="shortlink" href="https://www.raspberrypi.com.tw/?p=1362">
+<link rel="alternate" type="application/json+oembed" href="https://www.raspberrypi.com.tw/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.raspberrypi.com.tw%2F1362%2Fdht22-device-driver-starter-kit%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://www.raspberrypi.com.tw/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.raspberrypi.com.tw%2F1362%2Fdht22-device-driver-starter-kit%2F&amp;format=xml">
+<style type="text/css"></style>
+<meta name="google-site-verification" content="PxOUxDm73zbZ1gfg45duBrR9wTM6rhUx8Uprpt9Zq-c">
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-37105860-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<!-- WP Simple Shopping Cart plugin v4.4.9 - https://www.tipsandtricks-hq.com/wordpress-simple-paypal-shopping-cart-plugin-768/ -->
+
+	<script type="text/javascript">
+	<!--
+	//
+	function ReadForm (obj1, tst) 
+	{ 
+	    // Read the user form
+	    var i,j,pos;
+	    val_total="";val_combo="";		
+	
+	    for (i=0; i<obj1.length; i++) 
+	    {     
+	        // run entire form
+	        obj = obj1.elements[i];           // a form element
+	
+	        if (obj.type == "select-one") 
+	        {   // just selects
+	            if (obj.name == "quantity" ||
+	                obj.name == "amount") continue;
+		        pos = obj.selectedIndex;        // which option selected
+		        val = obj.options[pos].value;   // selected value
+		        val_combo = val_combo + " (" + val + ")";
+	        }
+	    }
+		// Now summarize everything we have processed above
+		val_total = obj1.product_tmp.value + val_combo;
+		obj1.wspsc_product.value = val_total;
+	}
+	//-->
+	</script>                <link href="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/css(1)" rel="stylesheet" type="text/css">
+                <style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style>                <style type="text/css">
+                    <!--
+                    
+            @font-face {
+                font-family: 'aslsicons2';
+                src: url('https://www.raspberrypi.com.tw/wp-content/plugins/ajax-search-lite/css/fonts/icons2.eot');
+                src: url('https://www.raspberrypi.com.tw/wp-content/plugins/ajax-search-lite/css/fonts/icons2.eot?#iefix') format('embedded-opentype'),
+                     url('https://www.raspberrypi.com.tw/wp-content/plugins/ajax-search-lite/css/fonts/icons2.woff2') format('woff2'),
+                     url('https://www.raspberrypi.com.tw/wp-content/plugins/ajax-search-lite/css/fonts/icons2.woff') format('woff'),
+                     url('https://www.raspberrypi.com.tw/wp-content/plugins/ajax-search-lite/css/fonts/icons2.ttf') format('truetype'),
+                     url('https://www.raspberrypi.com.tw/wp-content/plugins/ajax-search-lite/css/fonts/icons2.svg#icons') format('svg');
+                font-weight: normal;
+                font-style: normal;
+            }
+            div[id*='ajaxsearchlitesettings'].searchsettings .asl_option_inner label {
+                font-size: 0px !important;
+                color: rgba(0, 0, 0, 0);
+            }
+            div[id*='ajaxsearchlitesettings'].searchsettings .asl_option_inner label:after {
+                font-size: 11px !important;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 1;
+            }
+            div[id*='ajaxsearchlite'].wpdreams_asl_container {
+                width: 100%;
+                margin: 0px 0px 0px 0px;
+            }
+            div[id*='ajaxsearchliteres'].wpdreams_asl_results div.resdrg span.highlighted {
+                font-weight: bold;
+                color: #d9312b;
+                background-color: #eee;
+            }
+            div[id*='ajaxsearchliteres'].wpdreams_asl_results .results div.asl_image {
+                width: 70px;
+                height: 70px;
+            }
+            div.asl_r .results {
+                max-height: none;
+            }
+                                -->
+                </style>
+                            <script type="text/javascript">
+                if ( typeof _ASL !== "undefined" && _ASL !== null && typeof _ASL.initialize !== "undefined" )
+                    _ASL.initialize();
+            </script>
+            
+<!-- BEGIN ExactMetrics v5.3.10 Universal Analytics - https://exactmetrics.com/ -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-37105860-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- END ExactMetrics Universal Analytics -->
+<style type="text/css">
+.widecolumn { margin:0pt auto; width:800px }
+</style>
+</head>
+
+<body class="post-template-default single single-post postid-1362 single-format-standard singular two-column right-sidebar">
+
+<div id="page" class="hfeed">
+	<header id="branding" role="banner">
+			<hgroup>
+				<h1 id="site-title"><span><a href="https://www.raspberrypi.com.tw/" title="Raspberry Pi台灣樹莓派" rel="home">Raspberry Pi台灣樹莓派</a></span></h1>
+				<h2 id="site-description">Raspberry Pi官方代理商</h2>
+			</hgroup>
+
+						<a href="https://www.raspberrypi.com.tw/">
+									<img src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/cropped-raspberrypi-com-tw-banner-bold-full.png" width="1000" height="145" alt="">
+							</a>
+			
+								<form method="get" id="searchform" action="https://www.raspberrypi.com.tw/">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Search">
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search">
+	</form>
+			
+			<nav id="access" role="navigation">
+				<h3 class="assistive-text">Main menu</h3>
+								<div class="skip-link"><a class="assistive-text" href="https://www.raspberrypi.com.tw/1362/dht22-device-driver-starter-kit/#content" title="Skip to primary content">Skip to primary content</a></div>
+				<div class="skip-link"><a class="assistive-text" href="https://www.raspberrypi.com.tw/1362/dht22-device-driver-starter-kit/#secondary" title="Skip to secondary content">Skip to secondary content</a></div>
+								<div class="menu"><ul>
+<li><a href="https://www.raspberrypi.com.tw/">Home</a></li><li class="page_item page-item-11"><a href="https://www.raspberrypi.com.tw/news/">新聞</a></li>
+<li class="page_item page-item-24130 page_item_has_children"><a href="https://www.raspberrypi.com.tw/purchase/">購買產品</a>
+<ul class="children">
+	<li class="page_item page-item-31104"><a href="https://www.raspberrypi.com.tw/sale">清倉特賣</a></li>
+</ul>
+</li>
+<li class="page_item page-item-173 page_item_has_children"><a href="https://www.raspberrypi.com.tw/shop/">線上付款</a>
+<ul class="children">
+	<li class="page_item page-item-1196"><a href="https://www.raspberrypi.com.tw/shop/board/">開發板 &amp; 擴充板</a></li>
+	<li class="page_item page-item-1200"><a href="https://www.raspberrypi.com.tw/shop/package/">套餐</a></li>
+	<li class="page_item page-item-8824"><a href="https://www.raspberrypi.com.tw/shop/display/">顯示器</a></li>
+	<li class="page_item page-item-1205"><a href="https://www.raspberrypi.com.tw/shop/accessories/">周邊(外殼/電源/SD卡/無線網卡/轉接頭)</a></li>
+	<li class="page_item page-item-2853"><a href="https://www.raspberrypi.com.tw/shop/wireless/">無線模組</a></li>
+	<li class="page_item page-item-12079"><a href="https://www.raspberrypi.com.tw/shop/camera/">相機</a></li>
+	<li class="page_item page-item-1209"><a href="https://www.raspberrypi.com.tw/shop/sensor/">感測器</a></li>
+	<li class="page_item page-item-3237"><a href="https://www.raspberrypi.com.tw/shop/robotics/">動力機械(馬達/自走車底盤)</a></li>
+	<li class="page_item page-item-24444"><a href="https://www.raspberrypi.com.tw/shop/ai/">人工智慧</a></li>
+	<li class="page_item page-item-1358"><a href="https://www.raspberrypi.com.tw/shop/learning-kit/">學習套件</a></li>
+	<li class="page_item page-item-1207"><a href="https://www.raspberrypi.com.tw/shop/adafruit/">Adafruit系列</a></li>
+	<li class="page_item page-item-26441"><a href="https://www.raspberrypi.com.tw/shop/books/">參考書籍</a></li>
+</ul>
+</li>
+<li class="page_item page-item-331 page_item_has_children"><a href="https://www.raspberrypi.com.tw/tutorial/">教學</a>
+<ul class="children">
+	<li class="page_item page-item-334"><a href="https://www.raspberrypi.com.tw/tutorial/basic/">基礎</a></li>
+	<li class="page_item page-item-526"><a href="https://www.raspberrypi.com.tw/tutorial/advanced/">進階</a></li>
+	<li class="page_item page-item-612"><a href="https://www.raspberrypi.com.tw/tutorial/application/">應用</a></li>
+	<li class="page_item page-item-570"><a href="https://www.raspberrypi.com.tw/tutorial/faq/">常見問與答</a></li>
+</ul>
+</li>
+<li class="page_item page-item-17 page_item_has_children"><a href="https://www.raspberrypi.com.tw/resources/">相關資源</a>
+<ul class="children">
+	<li class="page_item page-item-7355"><a href="https://www.raspberrypi.com.tw/resources/magpi/">The MagPi</a></li>
+	<li class="page_item page-item-336"><a href="https://www.raspberrypi.com.tw/resources/slides/">投影片</a></li>
+	<li class="page_item page-item-604"><a href="https://www.raspberrypi.com.tw/resources/community/">社群聚會</a></li>
+</ul>
+</li>
+<li class="page_item page-item-104"><a href="https://www.raspberrypi.com.tw/about/">關於我們</a></li>
+<li class="page_item page-item-9"><a href="https://www.raspberrypi.com.tw/contact/">聯絡我們</a></li>
+</ul></div>
+			</nav><!-- #access -->
+	</header><!-- #branding -->
+
+
+	<div id="main">
+
+		<div id="primary">
+			<div id="content" role="main">
+
+				
+					<nav id="nav-single">
+						<h3 class="assistive-text">Post navigation</h3>
+						<span class="nav-previous"><a href="https://www.raspberrypi.com.tw/1342/dht11-device-driver-starter-kit/" rel="prev"><span class="meta-nav">←</span> Previous</a></span>
+						<span class="nav-next"><a href="https://www.raspberrypi.com.tw/23140/dht22-temperature-and-humidity-sensor/" rel="next">Next <span class="meta-nav">→</span></a></span>
+					</nav><!-- #nav-single -->
+
+					
+<article id="post-1362" class="post-1362 post type-post status-publish format-standard has-post-thumbnail hentry category-120 category-shop tag-device tag-device-driver tag-dht tag-dht11 tag-dht22 tag-dhtxx tag-driver tag-kernel tag-learning-kit tag-linux tag-raspberry-pi tag-sensor-2 tag-1008 tag-773 tag-2191 tag-2187 tag-1074 tag-699 tag-1076 tag-1462 tag-1463 tag-101">
+	<header class="entry-header">
+		<h1 class="entry-title">[產品] DHT22驅動程式學習套件</h1>
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://www.raspberrypi.com.tw/1362/dht22-device-driver-starter-kit/" title="16:06:23" rel="bookmark"><time class="entry-date" datetime="2014-07-15T16:06:23+08:00">2014 年 07 月 15 日</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://www.raspberrypi.com.tw/author/service/" title="View all posts by 小編" rel="author">小編</a></span></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p><a href="http://www.raspberrypi.com.tw/wp-content/uploads/2014/07/DHT22-Learning-Device-Driver-Package.jpg"><img class="alignnone size-full wp-image-1365 lazy-loaded" src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/DHT22-Learning-Device-Driver-Package.jpg" data-lazy-type="image" data-src="https://www.raspberrypi.com.tw/wp-content/uploads/2014/07/DHT22-Learning-Device-Driver-Package.jpg" alt="DHT22-Learning-Device-Driver-Package" width="2400" height="800" srcset="https://www.raspberrypi.com.tw/wp-content/uploads/2014/07/DHT22-Learning-Device-Driver-Package.jpg 2400w, https://www.raspberrypi.com.tw/wp-content/uploads/2014/07/DHT22-Learning-Device-Driver-Package-300x100.jpg 300w, https://www.raspberrypi.com.tw/wp-content/uploads/2014/07/DHT22-Learning-Device-Driver-Package-1024x341.jpg 1024w, https://www.raspberrypi.com.tw/wp-content/uploads/2014/07/DHT22-Learning-Device-Driver-Package-500x166.jpg 500w" data-srcset="" sizes="(max-width: 2400px) 100vw, 2400px"><noscript><img class="alignnone size-full wp-image-1365" src="https://www.raspberrypi.com.tw/wp-content/uploads/2014/07/DHT22-Learning-Device-Driver-Package.jpg" alt="DHT22-Learning-Device-Driver-Package" width="2400" height="800" srcset="https://www.raspberrypi.com.tw/wp-content/uploads/2014/07/DHT22-Learning-Device-Driver-Package.jpg 2400w, https://www.raspberrypi.com.tw/wp-content/uploads/2014/07/DHT22-Learning-Device-Driver-Package-300x100.jpg 300w, https://www.raspberrypi.com.tw/wp-content/uploads/2014/07/DHT22-Learning-Device-Driver-Package-1024x341.jpg 1024w, https://www.raspberrypi.com.tw/wp-content/uploads/2014/07/DHT22-Learning-Device-Driver-Package-500x166.jpg 500w" sizes="(max-width: 2400px) 100vw, 2400px" /></noscript></a></p>
+<p><strong><span style="font-size: 20px;">《特色》</span></strong><br>
+– 搭配 Raspberry Pi 實際學習如何撰寫 Linux 驅動程式</p>
+<p><strong><span style="font-size: 20px;">《規格》</span></strong><br>
+– DHT22溫濕度感測器(0~100%RH -4~125℃量測, ± 2%RH ± 0.2℃誤差) x1<br>
+– 170孔迷你麵包板 x1<br>
+– 10K電阻(1/4W) x1<br>
+– 20cm公對母排線(顏色隨機) x4<br>
+<strong>* <span style="color: #ff0000;">注意：本學習套件不包含 Raspberry Pi</span></strong></p>
+<p><iframe src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/h0JV0szKpcXXB7.html" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""> </iframe><br>
+<strong> <a href="https://www.slideshare.net/raspberrypi-tw/write-adevicedriveronraspberrypihowto" title="用Raspberry Pi學Linux驅動程式" target="_blank" rel="noopener noreferrer">用Raspberry Pi學Linux驅動程式</a> </strong> from <strong><a href="https://www.slideshare.net/raspberrypi-tw" target="_blank" rel="noopener noreferrer">raspberrypi-tw</a></strong></p>
+<p><strong><span style="font-size: 20px;">《下載》</span></strong><br>
+* <a title="DHT11中文規格書" href="http://go.aws/38uZYay">中文規格書(DHT11)</a>，<a title="DHT22英文規格書" href="http://go.aws/2TpVTQQ">英文規格書(DHT22)</a><br>
+* <a href="http://www.tortosaforum.com/raspberrypi/dht11km.tar">DHT11 範例程式</a><br>
+* <a title="用 Raspberry Pi 學 Linux 驅動程式" href="http://www.slideshare.net/raspberrypi-tw/write-adevicedriveronraspberrypihowto">用 Raspberry Pi 學 Linux 驅動程式投影片<br>
+* </a><a title="DHT11/22驅動程式學習套件補充資訊" href="http://bit.ly/2vyLBF1">DHT11/22驅動程式學習套件補充資訊</a></p>
+<p><strong><span style="font-size: 20px;">《教學》</span></strong><br>
+* <a title="How to Check and Calibrate a Humidity Sensor" href="https://www.allaboutcircuits.com/projects/how-to-check-and-calibrate-a-humidity-sensor/">如何檢測和校正 DHT22 溫濕度感測器</a>(How to Check and Calibrate a Humidity Sensor)<br>
+* <a title="Test and Calibrate DHT22 Hygrometers" href="http://www.kandrsmith.org/RJS/Misc/Hygrometers/calib_dht22.html">測試和校準 DHT22 溫濕度感測器</a>(Test and Calibrate DHT22 Hygrometers)</p>
+<p><strong><span style="font-size: 20px;">$ 320 </span></strong></p><div class="wp_cart_button_wrapper"><form method="post" class="wp-cart-button-form" action="https://www.raspberrypi.com.tw/1362/dht22-device-driver-starter-kit/" style="display:inline" onsubmit="return ReadForm(this, true);"><input type="hidden" id="_wpnonce" name="_wpnonce" value="5259bc4c15"><input type="hidden" name="_wp_http_referer" value="/1362/dht22-device-driver-starter-kit/"><input type="submit" class="wspsc_add_cart_submit" name="wspsc_add_cart_submit" value="Add to Cart"><input type="hidden" name="wspsc_product" value="DHT22 Device Driver Learning Kit"><input type="hidden" name="price" value="320"><input type="hidden" name="shipping" value="0"><input type="hidden" name="addcart" value="1"><input type="hidden" name="cartLink" value="https://www.raspberrypi.com.tw:443/1362/dht22-device-driver-starter-kit/"><input type="hidden" name="product_tmp" value="DHT22 Device Driver Learning Kit"><input type="hidden" name="item_number" value=""><input type="hidden" name="hash_one" value="62c9821c3984dc244f0ff4ed0632cd53"><input type="hidden" name="hash_two" value="a9d774a5fc8d3a72e7a6a2a9f62128a4"></form></div><p></p>
+<p><strong>※若無法使用Paypal購買，請到&nbsp;<a title="購買產品" href="https://www.raspberrypi.com.tw/purchase/">這裡</a>&nbsp;填寫表單購買，造成您的不便敬請見諒。</strong></p>
+<div class="bawmrp">
+<h3>You may also like:</h3>
+<ul>
+<li style="float:left;width:120px;height:auto;overflow:hidden;list-style:none;border-right: 1px solid #ccc;text-align:center;padding:0px 5px;" class="bawmrp_manual"><a href="https://www.raspberrypi.com.tw/26091/official-donkeycar-edition/"><img width="100" height="89" src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/donkey-car-graphic_300x267.jpg" data-lazy-type="image" data-src="https://www.raspberrypi.com.tw/wp-content/uploads/2019/06/donkey-car-graphic_300x267.jpg" class="attachment-100x100 size-100x100 wp-post-image lazy-loaded" alt=""><noscript><img width="100" height="89" src="//www.raspberrypi.com.tw/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.raspberrypi.com.tw/wp-content/uploads/2019/06/donkey-car-graphic_300x267.jpg" class="lazy lazy-hidden attachment-100x100 size-100x100 wp-post-image" alt="" /><noscript><img width="100" height="89" src="https://www.raspberrypi.com.tw/wp-content/uploads/2019/06/donkey-car-graphic_300x267.jpg" class="attachment-100x100 size-100x100 wp-post-image" alt="" /></noscript><br>[產品] Donkey Car | 驢車 | 自走車 | DonkeyCar 學習套件</a></li>
+<li style="float:left;width:120px;height:auto;overflow:hidden;list-style:none;border-right: 1px solid #ccc;text-align:center;padding:0px 5px;" class="bawmrp_manual"><a href="https://www.raspberrypi.com.tw/30038/pi-smart-speaker-kit-v2"><img width="100" height="100" src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/smart-speaker-learning-kit-v2-ss.jpg" data-lazy-type="image" data-src="https://s3-ap-northeast-1.amazonaws.com/raspberrypi-tw/wp-content/uploads/2020/02/14123948/smart-speaker-learning-kit-v2-ss.jpg" class="attachment-100x100 size-100x100 wp-post-image lazy-loaded" alt="智慧喇叭語音套件二代"><noscript><img width="100" height="100" src="//www.raspberrypi.com.tw/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://s3-ap-northeast-1.amazonaws.com/raspberrypi-tw/wp-content/uploads/2020/02/14123948/smart-speaker-learning-kit-v2-ss.jpg" class="lazy lazy-hidden attachment-100x100 size-100x100 wp-post-image" alt="智慧喇叭語音套件二代" /><noscript><img width="100" height="100" src="https://s3-ap-northeast-1.amazonaws.com/raspberrypi-tw/wp-content/uploads/2020/02/14123948/smart-speaker-learning-kit-v2-ss.jpg" class="attachment-100x100 size-100x100 wp-post-image" alt="智慧喇叭語音套件二代" /></noscript><br>[產品] 智慧喇叭語音學習套件V2(二代)</a></li>
+<li style="float:left;width:120px;height:auto;overflow:hidden;list-style:none;border-right: 1px solid #ccc;text-align:center;padding:0px 5px;" class="bawmrp_manual"><a href="https://www.raspberrypi.com.tw/21576/duckietown-car-starter-kit/"><img width="100" height="100" src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/duckietown-raspberry-piros-ss.jpg" data-lazy-type="image" data-src="https://www.raspberrypi.com.tw/wp-content/uploads/2018/08/duckietown-raspberry-piros-ss.jpg" class="attachment-100x100 size-100x100 wp-post-image lazy-loaded" alt=""><noscript><img width="100" height="100" src="//www.raspberrypi.com.tw/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.raspberrypi.com.tw/wp-content/uploads/2018/08/duckietown-raspberry-piros-ss.jpg" class="lazy lazy-hidden attachment-100x100 size-100x100 wp-post-image" alt="" /><noscript><img width="100" height="100" src="https://www.raspberrypi.com.tw/wp-content/uploads/2018/08/duckietown-raspberry-piros-ss.jpg" class="attachment-100x100 size-100x100 wp-post-image" alt="" /></noscript><br>[產品] Duckietown 小鴨車 小鴨城 自走車 學習套件</a></li>
+<li style="float:left;width:120px;height:auto;overflow:hidden;list-style:none;border-right: 1px solid #ccc;text-align:center;padding:0px 5px;" class="bawmrp_manual"><a href="https://www.raspberrypi.com.tw/19657/smart-relay-kit/"><img width="100" height="100" src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/Smart-Relay-Learning-Kit-thumb.jpg" data-lazy-type="image" data-src="https://www.raspberrypi.com.tw/wp-content/uploads/2018/03/Smart-Relay-Learning-Kit-thumb.jpg" class="attachment-100x100 size-100x100 wp-post-image lazy-loaded" alt=""><noscript><img width="100" height="100" src="//www.raspberrypi.com.tw/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.raspberrypi.com.tw/wp-content/uploads/2018/03/Smart-Relay-Learning-Kit-thumb.jpg" class="lazy lazy-hidden attachment-100x100 size-100x100 wp-post-image" alt="" /><noscript><img width="100" height="100" src="https://www.raspberrypi.com.tw/wp-content/uploads/2018/03/Smart-Relay-Learning-Kit-thumb.jpg" class="attachment-100x100 size-100x100 wp-post-image" alt="" /></noscript><br>[產品] 智慧開關(Smart Relay)學習套件</a></li>
+<li style="float:left;width:120px;height:auto;overflow:hidden;list-style:none;border-right: 1px solid #ccc;text-align:center;padding:0px 5px;" class="bawmrp_manual"><a href="https://www.raspberrypi.com.tw/14026/powenko-windows-10-iot-starter-kit/"><img width="100" height="100" src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/AEH003500-200x200-1.jpg" data-lazy-type="image" data-src="https://s3-ap-northeast-1.amazonaws.com/raspberrypi-tw/wp-content/uploads/2016/10/14124750/AEH003500-200x200-1.jpg" class="attachment-100x100 size-100x100 wp-post-image lazy-loaded" alt=""><noscript><img width="100" height="100" src="//www.raspberrypi.com.tw/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://s3-ap-northeast-1.amazonaws.com/raspberrypi-tw/wp-content/uploads/2016/10/14124750/AEH003500-200x200-1.jpg" class="lazy lazy-hidden attachment-100x100 size-100x100 wp-post-image" alt="" /><noscript><img width="100" height="100" src="https://s3-ap-northeast-1.amazonaws.com/raspberrypi-tw/wp-content/uploads/2016/10/14124750/AEH003500-200x200-1.jpg" class="attachment-100x100 size-100x100 wp-post-image" alt="" /></noscript><br>[產品] Windows 10 IOT 物聯網入門與實戰(柯博文)/學習套件</a></li>
+<li style="float:left;width:120px;height:auto;overflow:hidden;list-style:none;border-right: 1px solid #ccc;text-align:center;padding:0px 5px;" class="bawmrp_manual"><a href="https://www.raspberrypi.com.tw/13504/pi-follower-car-starter-kit/"><img width="100" height="100" src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/Pi-Follower-Car-Starter-Kit-serial-s_160x160-1.png" data-lazy-type="image" data-src="https://www.raspberrypi.com.tw/wp-content/uploads/2016/09/Pi-Follower-Car-Starter-Kit-serial-s_160x160-1.png" class="attachment-100x100 size-100x100 wp-post-image lazy-loaded" alt=""><noscript><img width="100" height="100" src="//www.raspberrypi.com.tw/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.raspberrypi.com.tw/wp-content/uploads/2016/09/Pi-Follower-Car-Starter-Kit-serial-s_160x160-1.png" class="lazy lazy-hidden attachment-100x100 size-100x100 wp-post-image" alt="" /><noscript><img width="100" height="100" src="https://www.raspberrypi.com.tw/wp-content/uploads/2016/09/Pi-Follower-Car-Starter-Kit-serial-s_160x160-1.png" class="attachment-100x100 size-100x100 wp-post-image" alt="" /></noscript><br>[產品] Raspberry Pi 寵物小車學習套件</a></li>
+<li style="float:left;width:120px;height:auto;overflow:hidden;list-style:none;border-right: 1px solid #ccc;text-align:center;padding:0px 5px;" class="bawmrp_manual"><a href="https://www.raspberrypi.com.tw/2557/gpio-game-console-starter-kit/"><img width="100" height="100" src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/DSC085431x1.jpg" data-lazy-type="image" data-src="https://s3-ap-northeast-1.amazonaws.com/raspberrypi-tw/wp-content/uploads/2014/10/14124409/DSC085431x1.jpg" class="attachment-100x100 size-100x100 wp-post-image lazy-loaded" alt=""><noscript><img width="100" height="100" src="//www.raspberrypi.com.tw/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://s3-ap-northeast-1.amazonaws.com/raspberrypi-tw/wp-content/uploads/2014/10/14124409/DSC085431x1.jpg" class="lazy lazy-hidden attachment-100x100 size-100x100 wp-post-image" alt="" /><noscript><img width="100" height="100" src="https://s3-ap-northeast-1.amazonaws.com/raspberrypi-tw/wp-content/uploads/2014/10/14124409/DSC085431x1.jpg" class="attachment-100x100 size-100x100 wp-post-image" alt="" /></noscript><br>[產品] GPIO 遊戲機學習套件</a></li>
+<li style="float:left;width:120px;height:auto;overflow:hidden;list-style:none;border-right: 1px solid #ccc;text-align:center;padding:0px 5px;" class="bawmrp_manual"><a href="https://www.raspberrypi.com.tw/1342/dht11-device-driver-starter-kit/"><img width="100" height="100" src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/DHT11-Learning-Device-Driver-Package-ss.jpg" data-lazy-type="image" data-src="https://www.raspberrypi.com.tw/wp-content/uploads/2014/07/DHT11-Learning-Device-Driver-Package-ss.jpg" class="attachment-100x100 size-100x100 wp-post-image lazy-loaded" alt=""><noscript><img width="100" height="100" src="//www.raspberrypi.com.tw/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.raspberrypi.com.tw/wp-content/uploads/2014/07/DHT11-Learning-Device-Driver-Package-ss.jpg" class="lazy lazy-hidden attachment-100x100 size-100x100 wp-post-image" alt="" /><noscript><img width="100" height="100" src="https://www.raspberrypi.com.tw/wp-content/uploads/2014/07/DHT11-Learning-Device-Driver-Package-ss.jpg" class="attachment-100x100 size-100x100 wp-post-image" alt="" /></noscript><br>[產品] DHT11驅動程式學習套件</a></li>
+</ul>
+</div>
+<div style="clear:both;"></div>
+			</div><!-- .entry-content -->
+
+	<footer class="entry-meta">
+		This entry was posted in <a href="https://www.raspberrypi.com.tw/category/shop/%e5%ad%b8%e7%bf%92%e5%a5%97%e4%bb%b6/" rel="category tag">學習套件</a>, <a href="https://www.raspberrypi.com.tw/category/shop/" rel="category tag">產品</a> and tagged <a href="https://www.raspberrypi.com.tw/tag/device/" rel="tag">Device</a>, <a href="https://www.raspberrypi.com.tw/tag/device-driver/" rel="tag">device driver</a>, <a href="https://www.raspberrypi.com.tw/tag/dht/" rel="tag">DHT</a>, <a href="https://www.raspberrypi.com.tw/tag/dht11/" rel="tag">DHT11</a>, <a href="https://www.raspberrypi.com.tw/tag/dht22/" rel="tag">DHT22</a>, <a href="https://www.raspberrypi.com.tw/tag/dhtxx/" rel="tag">DHTxx</a>, <a href="https://www.raspberrypi.com.tw/tag/driver/" rel="tag">Driver</a>, <a href="https://www.raspberrypi.com.tw/tag/kernel/" rel="tag">kernel</a>, <a href="https://www.raspberrypi.com.tw/tag/learning-kit/" rel="tag">Learning Kit</a>, <a href="https://www.raspberrypi.com.tw/tag/linux/" rel="tag">linux</a>, <a href="https://www.raspberrypi.com.tw/tag/raspberry-pi/" rel="tag">raspberry pi</a>, <a href="https://www.raspberrypi.com.tw/tag/sensor-2/" rel="tag">sensor</a>, <a href="https://www.raspberrypi.com.tw/tag/%e5%82%b3%e6%84%9f%e5%99%a8/" rel="tag">傳感器</a>, <a href="https://www.raspberrypi.com.tw/tag/%e5%a5%97%e4%bb%b6/" rel="tag">套件</a>, <a href="https://www.raspberrypi.com.tw/tag/%e5%ad%b8%e7%bf%92%e5%a5%97%e4%bb%b6/" rel="tag">學習套件</a>, <a href="https://www.raspberrypi.com.tw/tag/%e6%84%9f%e6%b8%ac%e5%99%a8/" rel="tag">感測器</a>, <a href="https://www.raspberrypi.com.tw/tag/%e6%95%99%e5%ad%b8%e5%a5%97%e4%bb%b6/" rel="tag">教學套件</a>, <a href="https://www.raspberrypi.com.tw/tag/%e6%a8%b9%e8%8e%93%e6%b4%be/" rel="tag">樹莓派</a>, <a href="https://www.raspberrypi.com.tw/tag/%e6%ba%ab%e5%ba%a6/" rel="tag">溫度</a>, <a href="https://www.raspberrypi.com.tw/tag/%e6%ba%ab%e6%bf%95%e5%ba%a6/" rel="tag">溫濕度</a>, <a href="https://www.raspberrypi.com.tw/tag/%e6%bf%95%e5%ba%a6/" rel="tag">濕度</a>, <a href="https://www.raspberrypi.com.tw/tag/%e9%a9%85%e5%8b%95%e7%a8%8b%e5%bc%8f/" rel="tag">驅動程式</a> by <a href="https://www.raspberrypi.com.tw/author/service/">小編</a>. Bookmark the <a href="https://www.raspberrypi.com.tw/1362/dht22-device-driver-starter-kit/" title="Permalink to [產品] DHT22驅動程式學習套件" rel="bookmark">permalink</a>.		
+			</footer><!-- .entry-meta -->
+</article><!-- #post-1362 -->
+
+						<div id="comments">
+	
+	
+			<h2 id="comments-title">
+			4 thoughts on “<span>[產品] DHT22驅動程式學習套件</span>”		</h2>
+
+		
+		<ol class="commentlist">
+				<li class="comment even thread-even depth-1" id="li-comment-6999">
+		<article id="comment-6999" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt="" src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/85464160db4d29c5c7f1fbf3dbaa9303.jpeg" data-lazy-type="image" data-src="https://secure.gravatar.com/avatar/85464160db4d29c5c7f1fbf3dbaa9303?s=68&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/85464160db4d29c5c7f1fbf3dbaa9303?s=136&amp;d=mm&amp;r=g 2x" data-srcset="" class="avatar avatar-68 photo lazy-loaded" height="68" width="68"><noscript><img alt='' src='https://secure.gravatar.com/avatar/85464160db4d29c5c7f1fbf3dbaa9303?s=68&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/85464160db4d29c5c7f1fbf3dbaa9303?s=136&#038;d=mm&#038;r=g 2x' class='avatar avatar-68 photo' height='68' width='68' /></noscript><span class="fn">Jeff Chan</span> on <a href="https://www.raspberrypi.com.tw/1362/dht22-device-driver-starter-kit/#comment-6999"><time datetime="2015-02-11T01:44:13+08:00">2015 年 02 月 11 日 at 01:44:13</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>想請問一下，這個套件組還有再販售嗎?</p>
+</div>
+
+			<div class="reply">
+				<a rel="nofollow" class="comment-reply-link" href="https://www.raspberrypi.com.tw/1362/dht22-device-driver-starter-kit/#comment-6999" data-commentid="6999" data-postid="1362" data-belowelement="comment-6999" data-respondelement="respond" aria-label="Reply to Jeff Chan">Reply <span>↓</span></a>			</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	<ul class="children">
+	<li class="comment byuser comment-author-service bypostauthor odd alt depth-2" id="li-comment-7002">
+		<article id="comment-7002" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt="" src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/7b3d288f6c1778392a4b05d42703e5e3.png" data-lazy-type="image" data-src="https://secure.gravatar.com/avatar/7b3d288f6c1778392a4b05d42703e5e3?s=39&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/7b3d288f6c1778392a4b05d42703e5e3?s=78&amp;d=mm&amp;r=g 2x" data-srcset="" class="avatar avatar-39 photo lazy-loaded" height="39" width="39"><noscript><img alt='' src='https://secure.gravatar.com/avatar/7b3d288f6c1778392a4b05d42703e5e3?s=39&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/7b3d288f6c1778392a4b05d42703e5e3?s=78&#038;d=mm&#038;r=g 2x' class='avatar avatar-39 photo' height='39' width='39' /></noscript><span class="fn">service</span> on <a href="https://www.raspberrypi.com.tw/1362/dht22-device-driver-starter-kit/#comment-7002"><time datetime="2015-02-11T11:42:17+08:00">2015 年 02 月 11 日 at 11:42:17</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>您好，有的，請直接購買。</p>
+</div>
+
+			<div class="reply">
+				<a rel="nofollow" class="comment-reply-link" href="https://www.raspberrypi.com.tw/1362/dht22-device-driver-starter-kit/#comment-7002" data-commentid="7002" data-postid="1362" data-belowelement="comment-7002" data-respondelement="respond" aria-label="Reply to service">Reply <span>↓</span></a>			</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-odd thread-alt depth-1" id="li-comment-7868">
+		<article id="comment-7868" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt="" src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/c603c4411a0cc372e5a89c324e9f4e61.png" data-lazy-type="image" data-src="https://secure.gravatar.com/avatar/c603c4411a0cc372e5a89c324e9f4e61?s=68&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/c603c4411a0cc372e5a89c324e9f4e61?s=136&amp;d=mm&amp;r=g 2x" data-srcset="" class="avatar avatar-68 photo lazy-loaded" height="68" width="68"><noscript><img alt='' src='https://secure.gravatar.com/avatar/c603c4411a0cc372e5a89c324e9f4e61?s=68&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/c603c4411a0cc372e5a89c324e9f4e61?s=136&#038;d=mm&#038;r=g 2x' class='avatar avatar-68 photo' height='68' width='68' /></noscript><span class="fn">陳</span> on <a href="https://www.raspberrypi.com.tw/1362/dht22-device-driver-starter-kit/#comment-7868"><time datetime="2016-10-27T13:08:27+08:00">2016 年 10 月 27 日 at 13:08:27</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>請問套件組還有賣嗎</p>
+</div>
+
+			<div class="reply">
+				<a rel="nofollow" class="comment-reply-link" href="https://www.raspberrypi.com.tw/1362/dht22-device-driver-starter-kit/#comment-7868" data-commentid="7868" data-postid="1362" data-belowelement="comment-7868" data-respondelement="respond" aria-label="Reply to 陳">Reply <span>↓</span></a>			</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	<ul class="children">
+	<li class="comment byuser comment-author-service bypostauthor odd alt depth-2" id="li-comment-7869">
+		<article id="comment-7869" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt="" src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/7b3d288f6c1778392a4b05d42703e5e3.png" data-lazy-type="image" data-src="https://secure.gravatar.com/avatar/7b3d288f6c1778392a4b05d42703e5e3?s=39&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/7b3d288f6c1778392a4b05d42703e5e3?s=78&amp;d=mm&amp;r=g 2x" data-srcset="" class="avatar avatar-39 photo lazy-loaded" height="39" width="39"><noscript><img alt='' src='https://secure.gravatar.com/avatar/7b3d288f6c1778392a4b05d42703e5e3?s=39&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/7b3d288f6c1778392a4b05d42703e5e3?s=78&#038;d=mm&#038;r=g 2x' class='avatar avatar-39 photo' height='39' width='39' /></noscript><span class="fn">service</span> on <a href="https://www.raspberrypi.com.tw/1362/dht22-device-driver-starter-kit/#comment-7869"><time datetime="2016-10-27T13:34:13+08:00">2016 年 10 月 27 日 at 13:34:13</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>您好</p>
+<p>還有哦<br>
+現貨供應中</p>
+<p>謝謝</p>
+</div>
+
+			<div class="reply">
+				<a rel="nofollow" class="comment-reply-link" href="https://www.raspberrypi.com.tw/1362/dht22-device-driver-starter-kit/#comment-7869" data-commentid="7869" data-postid="1362" data-belowelement="comment-7869" data-respondelement="respond" aria-label="Reply to service">Reply <span>↓</span></a>			</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		</ol>
+
+		
+		
+	
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://www.raspberrypi.com.tw/1362/dht22-device-driver-starter-kit/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://www.raspberrypi.com.tw/wp-comments-post.php" method="post" id="commentform" class="comment-form"><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" required="required"></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" maxlength="100" aria-describedby="email-notes" required="required"></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="text" value="" size="30" maxlength="200"></p>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"> <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+<div class="gglcptch gglcptch_v2"><div id="gglcptch_recaptcha_678378600" class="gglcptch_recaptcha"><div style="width: 304px; height: 78px;"><div><iframe src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/anchor.html" width="304" height="78" role="presentation" name="a-opgu3qdl23hn" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;" src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/saved_resource(1).html"></iframe></div>
+				<noscript>
+					<div style="width: 302px;">
+						<div style="width: 302px; height: 422px; position: relative;">
+							<div style="width: 302px; height: 422px; position: absolute;">
+								<iframe src="https://www.google.com/recaptcha/api/fallback?k=6LdxH9QUAAAAAAX8y4zcwd8IOjyZ99NL-Ohr1DCL" frameborder="0" scrolling="no" style="width: 302px; height:422px; border-style: none;"></iframe>
+							</div>
+						</div>
+						<div style="border-style: none; bottom: 12px; left: 25px; margin: 0px; padding: 0px; right: 25px; background: #f9f9f9; border: 1px solid #c1c1c1; border-radius: 3px; height: 60px; width: 300px;">
+							<textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px !important; height: 40px !important; border: 1px solid #c1c1c1 !important; margin: 10px 25px !important; padding: 0px !important; resize: none !important;"></textarea>
+						</div>
+					</div>
+				</noscript></div><p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment"> <input type="hidden" name="comment_post_ID" value="1362" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="500155a561"></p><p style="display: none;"></p><input type="hidden" id="ak_js" name="ak_js" value="1588666999129"></form>	</div><!-- #respond -->
+	
+</div><!-- #comments -->
+
+				
+			</div><!-- #content -->
+		</div><!-- #primary -->
+
+
+	</div><!-- #main -->
+
+	<footer id="colophon" role="contentinfo">
+
+			
+
+			<div id="site-generator">
+								<a href="http://wordpress.org/" title="Semantic Personal Publishing Platform">Proudly powered by WordPress</a>
+			</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<link rel="stylesheet" id="gglcptch-css" href="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/gglcptch.css" type="text/css" media="all">
+<script type="text/javascript" src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/comment-reply.min.js.下載"></script>
+<script type="text/javascript">
+/* Highlight Search Terms 1.5 ( RavanH - http://status301.net/wordpress-plugins/highlight-search-terms/ ) */
+var hlst_query = []; var hlst_areas = ["#groups-dir-list","#members-dir-list","div.bbp-topic-content,div.bbp-reply-content,li.bbp-forum-info,.bbp-topic-title,.bbp-reply-title","article","div.hentry","div.post","#content","#main","div.content","#middle","#container","div.container","div.page","#wrapper","body"];
+</script>
+<script type="text/javascript" src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/hlst-extend.min.js.下載"></script>
+<script type="text/javascript" src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/wpsm-script.js.下載"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var ajaxsearchlite = {"ajaxurl":"https:\/\/www.raspberrypi.com.tw\/wp-admin\/admin-ajax.php","backend_ajaxurl":"https:\/\/www.raspberrypi.com.tw\/wp-admin\/admin-ajax.php","js_scope":"jQuery"};
+var ASL = {"ajaxurl":"https:\/\/www.raspberrypi.com.tw\/wp-admin\/admin-ajax.php","backend_ajaxurl":"https:\/\/www.raspberrypi.com.tw\/wp-admin\/admin-ajax.php","js_scope":"jQuery","detect_ajax":"0","scrollbar":"1","js_retain_popstate":"0","version":"4737","fix_duplicates":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/jquery.ajaxsearchlite.min.js.下載"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var a3_lazyload_params = {"apply_images":"1","apply_videos":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/jquery.lazyloadxt.extra.min.js.下載"></script>
+<script type="text/javascript" src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/jquery.lazyloadxt.srcset.min.js.下載"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var a3_lazyload_extend_params = {"edgeY":"0"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/jquery.lazyloadxt.extend.js.下載"></script>
+<script type="text/javascript" src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/wp-embed.min.js.下載"></script>
+<script async="async" type="text/javascript" src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/form.js.下載"></script>
+<script type="text/javascript" data-cfasync="false" async="async" defer="defer" src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/api.js.下載"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var gglcptch = {"options":{"version":"v2","sitekey":"6LdxH9QUAAAAAAX8y4zcwd8IOjyZ99NL-Ohr1DCL","error":"<strong>Warning<\/strong>:&nbsp;More than one reCAPTCHA has been found in the current form. Please remove all unnecessary reCAPTCHA fields to make it work properly.","disable":0,"theme":"light"},"vars":{"visibility":false}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/script.js.下載"></script>
+
+
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+
+Served from: www.raspberrypi.com.tw @ 2020-05-05 16:23:18 by W3 Total Cache
+--><div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div><div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"></div><div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"></div><div style="z-index: 2000000000; position: relative;"><iframe title="recaptcha challenge" src="./[產品] DHT22驅動程式學習套件 - Raspberry Pi台灣樹莓派Raspberry Pi台灣樹莓派_files/bframe.html" name="c-opgu3qdl23hn" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" style="width: 100%; height: 100%;"></iframe></div></div></body></html>
